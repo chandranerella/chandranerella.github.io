@@ -21,6 +21,15 @@ header {
 
 }
 
+footer div{
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
 main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
@@ -131,9 +140,6 @@ h2 {
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
-}
 
 .buttonBox {
   display: flex;
@@ -170,6 +176,6 @@ footer {
     font-size: 18px;
   }
   img {
-    height: 40vh;
+    height: 25vh;
   }
 }
