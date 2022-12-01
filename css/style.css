@@ -212,4 +212,8 @@ i {
   img {
     height: 25vh;
   }
+  i {
+    font-size: 30px;
+    width: 50px;
+  }
 }
