@@ -21,7 +21,7 @@ header {
 
 }
 
-footer div{
+/* footer div{
   height: 100%;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
@@ -31,7 +31,21 @@ footer div{
   padding: 10px 20px;
   text-align: center;
   color: rgb(255, 255, 255, 0.5);
+} */
+
+footer div {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  text-align: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
@@ -42,9 +56,9 @@ main {
   align-items: stretch;
   align-content: center;
 }
-footer {
+/* footer {
   height: 10vh;
-}
+} */
 
 .copyright {
   margin: auto 0;
