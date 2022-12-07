@@ -216,6 +216,7 @@ i {
 
 
 
+
 @media all and (max-width:700px) {
   main {
     grid-template-columns: 1fr;
@@ -230,5 +231,17 @@ i {
   i {
     font-size: 30px;
     width: 50px;
+  }
+  footer div {
+  flex-direction: column-reverse;
+  align-items: center;
+  }
+
+  footer div ul {
+    padding-left: 0;
+  }
+
+  footer div p {
+    margin-top: 0;
   }
 }
